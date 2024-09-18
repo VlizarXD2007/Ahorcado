@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#wordContainer {
+    font-size: 24px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+#keyboardContainer button {
+    margin: 5px;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#message {
+    font-size: 18px;
+    color: red;
+}
+
+#resetButton {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#resetButton:hover {
+    background-color: #0056b3;
+}
