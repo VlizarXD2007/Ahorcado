@@ -1,4 +1,4 @@
-const palabras = ["juegos", "automovil", "cartas", "pared", "ahorcado"];
+const palabras = ["juegos", "automovil", "cartas", "pared", "ahorcado","muñeco","calor","frio"];
 let palabraSecreta = '';
 let errores = 0;
 let letrasCorrectas = [];
