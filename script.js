@@ -1,4 +1,12 @@
-const palabras = ["cementerio", 'universo', 'ciencia', 'papeles', 'ahorcado', 'carton', 'tecnología', 'calor', 'auto', 'planeta', 'frio', 'frito', "barrio", 'televisor', 'madera', 'juego'];
+const palabras = ["cementerio", "universo", "ciencia", "papeles", "ahorcado", "carton", 
+    "tecnologia", "calor", "auto", "planeta", "frio", "frito", "barrio", 
+    "televisor", "madera", "juego", "flor", "mariposa", "jardin", "río", 
+    "tigre", "elefante", "ballena", "casa", "montaña", "lago", "ciudad", 
+    "arcoiris", "silla", "mesa", "ventana", "puerta", "estrella", "nube", 
+    "sol", "luna", "cielo", "corazon", "sonrisa", "amigo", "familia", 
+    "gato", "perro", "pajaro", "pez", "florero", "zapato", "pintura", 
+    "bailar", "cantar", "caminar", "jugar", "reir", "comida", "cocina", 
+    "libro", "cuento", "pelicula", "musica", "arte"];
 
 let palabraSecreta = '';
 let letrasCorrectas = [];
