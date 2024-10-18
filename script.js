@@ -137,5 +137,26 @@ function actualizarPuntuacion() {
 function continuarConSiguientePalabra() {
     startGame(false); // Llamar a startGame con false para continuar sin reiniciar puntuación
 }
+const palabrasAdicionales = ["manzana", "naranja", "banana", "kiwi", "pera"];
+let palabraAdivinada = '';
+
+function startGuessWordGame() {
+    palabraAdivinada = palabrasAdicionales[Math.floor(Math.random() * palabrasAdicionales.length)].toUpperCase();
+    document.getElementById('guessWordContainer').style.display = 'block';
+    document.getElementById('guessMessage').textContent = '';
+}
+
+function checkGuess() {
+    const guessInput = document.getElementById('guessInput').value.toUpperCase();
+    if (guessInput === palabraAdivinada) {
+        document.getElementById('guessMessage').textContent = '¡Correcto! 🎉';
+        // Aquí puedes aumentar la puntuación
+    } else {
+        document.getElementById('guessMessage').textContent = `Incorrecto. La palabra era: ${palabraAdivinada}`;
+    }
+}
+function continuarConSiguientePalabra() {
+    startGuessWordGame(); // Cambia esto para iniciar el nuevo juego
+}
 
 window.onload = cargarProgreso;
