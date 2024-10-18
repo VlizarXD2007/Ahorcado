@@ -18,6 +18,13 @@
         <button id="resetButton" onclick="startGame()">SIGUIENTE</button>
         
     </div>
+    <div id="guessWordContainer" style="display:none;">
+    <h2>Adivina la palabra</h2>
+    <input type="text" id="guessInput" placeholder="Escribe tu respuesta">
+    <button onclick="checkGuess()">Adivinar</button>
+    <p id="guessMessage"></p>
+</div>
+
     <script src="script.js"></script>
 </body>
 </html>
