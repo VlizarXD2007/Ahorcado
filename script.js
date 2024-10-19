@@ -39,7 +39,7 @@ function mostrarPalabra() {
 function generarTeclado() {
     const keyboardContainer = document.getElementById('keyboardContainer');
     keyboardContainer.innerHTML = '';
-    const letras = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+    const letras = 'ABCDEFGHIJKLMNOPQRSTUVWXYZÑ'.split('');
     letras.forEach(letra => {
         const button = document.createElement('button');
         button.textContent = letra;
