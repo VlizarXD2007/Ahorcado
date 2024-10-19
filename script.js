@@ -98,6 +98,12 @@ function dibujarAhorcado() {
     if (errores > 5) {                               // Cuerpo
         ctx.fillRect(150, 115, 10, 40);
     }
+    if (errores > 6) {                               // Brazo
+        ctx.fillRect(150, 115, 10, 40);
+    }
+    if (errores > 7) {                               // pierna
+        ctx.fillRect(150, 115, 10, 40);
+    }
 }
 
 function guardarProgreso() {
